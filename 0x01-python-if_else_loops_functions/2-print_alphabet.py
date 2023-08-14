@@ -1,4 +1,3 @@
 #!/usr/bin/python3
-for i in range (97, 123):
-	i = chr(i)
-	print(i, end="")
+for i in range(97, 123):
+    print(chr(i), end="")
