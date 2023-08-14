@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-for i in range(97, 123):
-    if i != 113 and i != 101:
-        print(chr(i), end="")
+letters = "abcdefghijklmnopqrstuvwxyz"
+for i in range(26):
+    if letters[i] != "q" and letters[i] != "e":
+        print("{}".format(letters[i]), end="")
     
