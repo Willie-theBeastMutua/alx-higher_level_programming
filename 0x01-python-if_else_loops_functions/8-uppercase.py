@@ -1,13 +1,4 @@
 #!/usr/bin/python3
-def uppercase(str):
-    result = ""
-    for i in str:
-        num = ord(i)
-        if num > 96 and num < 123:
-            num = num - 32
-        print("%c"% num, end="")
-    print("")
-#!/usr/bin/python3
 
 
 def upper(ch):
