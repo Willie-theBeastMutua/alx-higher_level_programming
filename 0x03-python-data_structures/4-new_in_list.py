@@ -3,7 +3,7 @@
 def new_in_list(my_list, idx, element):
     if isinstance(my_list, list):
         leng = len(my_list) - 1
-        copy_list = my_list
+        copy_list = my_list.copy()
         if idx < 0 or idx > leng:
             return copy_list
         else:
