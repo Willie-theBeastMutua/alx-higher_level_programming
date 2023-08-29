@@ -6,4 +6,3 @@ def multiply_by_2(a_dictionary):
         v *= 2
         dic_cp[k] = v
     return dic_cp
-        
