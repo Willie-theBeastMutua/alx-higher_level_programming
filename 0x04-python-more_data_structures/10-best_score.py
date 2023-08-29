@@ -2,7 +2,7 @@
 
 def best_score(a_dictionary):
     val = 0
-    if isinstance (a_dictionary, dict):
+    if isinstance(a_dictionary, dict) and a_dictionary:
         for k, v in a_dictionary.items():
             if v > val:
                 val = v
