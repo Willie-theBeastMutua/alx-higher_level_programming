@@ -9,4 +9,4 @@ def best_score(a_dictionary):
                 biggest = k
     else:
         return None
-    return k
+    return biggest
