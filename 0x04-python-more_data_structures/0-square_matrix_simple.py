@@ -9,4 +9,3 @@ def square_matrix_simple(matrix=[]):
             val = matrix[i][j] * matrix[i][j]
             matrix_cp[i][j] = val
     return matrix_cp
-
